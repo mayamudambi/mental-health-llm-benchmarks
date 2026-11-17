@@ -12,7 +12,7 @@ Samantha Matthews,<sup>1</sup> Maya Mudambi,<sup>2</sup> Hao Yu,<sup>3,4</sup> J
 
 ## License
 
-To be added.
+MIT License
 
 ## Contents
 
