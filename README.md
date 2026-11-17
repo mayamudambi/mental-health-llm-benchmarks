@@ -12,7 +12,13 @@ Samantha Matthews,<sup>1</sup> Maya Mudambi,<sup>2</sup> Hao Yu,<sup>3,4</sup> J
 
 ## License
 
-MIT License
+## License
+
+Code (`.py` files and JSON Schemas in `abstraction/` and `rating/`) is released under the MIT License; see `LICENSE`.
+
+All other materials — prompts, rubric, vocabularies, data files, and documentation — are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0); see `LICENSE-DATA`. Please cite the article when reusing them.
+
+Verbatim quotations from included reports in `data/llm_runs/` remain the copyright of their original authors, are reproduced for scholarly purposes, and are not covered by either license.
 
 ## Contents
 
