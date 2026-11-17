@@ -1,0 +1,5 @@
+anthropic
+pydantic>=2
+pandas
+openpyxl
+pymupdf

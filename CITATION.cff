@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the article and this repository."
+title: "Benchmarks for Evaluating Generative Large Language Models in Mental Health: A Systematic Review — materials, code, and rating data"
+type: software
+authors:
+  - family-names: Matthews
+    given-names: Samantha
+    affiliation: RAND
+  - family-names: Mudambi
+    given-names: Maya
+    affiliation: University of Massachusetts Amherst
+  - family-names: Yu
+    given-names: Hao
+    affiliation: Harvard Pilgrim Health Care Institute; Harvard Medical School
+  - family-names: Torous
+    given-names: John
+    affiliation: Beth Israel Deaconess Medical Center
+  - family-names: Suh
+    given-names: Jina
+    affiliation: University of Washington
+  - family-names: Nagata
+    given-names: Jason M.
+    affiliation: University of California, San Francisco
+  - family-names: Pataranutaporn
+    given-names: Pat
+    affiliation: MIT Media Lab
+  - family-names: Cantor
+    given-names: Jonathan H.
+    affiliation: RAND
+  - family-names: McBain
+    given-names: Ryan K.
+    affiliation: RAND
+repository-code: "TODO: repository URL"
+# doi: "TODO: Zenodo DOI once a release is archived"
+preferred-citation:
+  type: article
+  title: "Benchmarks for Evaluating Generative Large Language Models in Mental Health: A Systematic Review"
+  journal: "TODO"
+  year: 2026
+  authors:
+    - family-names: Matthews
+      given-names: Samantha
+    - family-names: Mudambi
+      given-names: Maya
+    - family-names: Yu
+      given-names: Hao
+    - family-names: Torous
+      given-names: John
+    - family-names: Suh
+      given-names: Jina
+    - family-names: Nagata
+      given-names: Jason M.
+    - family-names: Pataranutaporn
+      given-names: Pat
+    - family-names: Cantor
+      given-names: Jonathan H.
+    - family-names: McBain
+      given-names: Ryan K.

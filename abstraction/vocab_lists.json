@@ -1,0 +1,397 @@
+[
+ [
+  "AccessMethodType",
+  [
+   "API",
+   "User interface",
+   "Not reported"
+  ]
+ ],
+ [
+  "CONVERSATION_TYPES_BASE",
+  [
+   "Single-shot",
+   "Multi-turn interactive",
+   "Not applicable"
+  ]
+ ],
+ [
+  "CONVERSATION_TYPES_ROLLUP",
+  [
+   "Single-shot",
+   "Multi-turn interactive",
+   "Not applicable",
+   "Mixed"
+  ]
+ ],
+ [
+  "ConversationTypeInstance",
+  [
+   "Single-shot",
+   "Multi-turn interactive",
+   "Not applicable"
+  ]
+ ],
+ [
+  "ConversationTypeRollup",
+  [
+   "Single-shot",
+   "Multi-turn interactive",
+   "Mixed",
+   "Not applicable"
+  ]
+ ],
+ [
+  "DATASET_PURPOSE_REQUIRES_DERIVATION",
+  [
+   "Both — held-out split reported",
+   "Both — split not reported"
+  ]
+ ],
+ [
+  "DATASET_PURPOSE_REQUIRES_EVIDENCE",
+  [
+   "Both — held-out split reported"
+  ]
+ ],
+ [
+  "DatasetPurpose",
+  [
+   "Evaluation only",
+   "Training or tuning only",
+   "Both — held-out split reported",
+   "Both — split not reported",
+   "Not applicable"
+  ]
+ ],
+ [
+  "EVALUATION_CONSTRUCTS",
+  [
+   "Diagnostic accuracy",
+   "Treatment/clinical accuracy",
+   "Psychiatric knowledge accuracy",
+   "Risk detection accuracy",
+   "Emotion recognition",
+   "Response quality",
+   "Empathy",
+   "Supportiveness",
+   "Helpfulness",
+   "Safety",
+   "Trustworthiness",
+   "Privacy",
+   "Fairness / equity",
+   "Cultural sensitivity",
+   "Guideline adherence / information quality",
+   "Therapeutic alliance / rapport",
+   "Therapeutic technique fidelity",
+   "Intervention strategy selection",
+   "Simulation fidelity",
+   "Professionalism / clinical communication style",
+   "Stigma and harmful-content detection",
+   "Psychotherapy process annotation",
+   "Clinical documentation quality"
+  ]
+ ],
+ [
+  "EvaluatedOutputType",
+  [
+   "Generated text",
+   "Label or class",
+   "Score or rating",
+   "Mixed"
+  ]
+ ],
+ [
+  "EvaluationEngineType",
+  [
+   "LLM as judge",
+   "Automated metric",
+   "Human raters",
+   "Multi-judge (hybrid)",
+   "Statistical comparison",
+   "Other"
+  ]
+ ],
+ [
+  "GENERAL_DOMAIN_CODES",
+  [
+   "General mental health",
+   "General psychiatry",
+   "General psychology"
+  ]
+ ],
+ [
+  "InputAvailability",
+  [
+   "Publicly released",
+   "Available on request",
+   "Fully specified in paper",
+   "Method reproducible, items unavailable",
+   "Partially specified",
+   "Not available"
+  ]
+ ],
+ [
+  "InputDeterminism",
+  [
+   "Fixed",
+   "Stochastic",
+   "Dynamic",
+   "Live",
+   "Mixed or unclear"
+  ]
+ ],
+ [
+  "InputFormatType",
+  [
+   "Multiple-choice questions (MCQs)",
+   "Question-answer pairs",
+   "Clinical vignettes",
+   "Transcripts (interviews, sessions, hotline calls)",
+   "Social media / online content",
+   "Chat logs",
+   "Simulated dialogues/patient interactions",
+   "Interactive dialogue (simulated or live users)",
+   "Journal/diary entries",
+   "Personal narratives",
+   "News/media articles",
+   "Clinical notes",
+   "Audio recordings",
+   "Video recordings",
+   "Images",
+   "Structured forms/checklists",
+   "Structured/tabular data",
+   "Free-text prompts",
+   "Other (specify)"
+  ]
+ ],
+ [
+  "InputProvenance",
+  [
+   "Third-party",
+   "Author-created",
+   "Mixed"
+  ]
+ ],
+ [
+  "InputReality",
+  [
+   "Real",
+   "Synthetic — human-written",
+   "Synthetic — LLM-generated",
+   "Mixed",
+   "Not reported"
+  ]
+ ],
+ [
+  "JournalSourceType",
+  [
+   "Preprint",
+   "Conference proceeding",
+   "Peer reviewed",
+   "Other"
+  ]
+ ],
+ [
+  "JudgementType",
+  [
+   "Met",
+   "Not met",
+   "Cannot determine"
+  ]
+ ],
+ [
+  "LivedExp",
+  [
+   "None",
+   "Consulted",
+   "Co-design",
+   "Led"
+  ]
+ ],
+ [
+  "MENTAL_HEALTH_DOMAINS",
+  [
+   "Depression",
+   "Anxiety",
+   "Stress",
+   "Trauma / PTSD",
+   "Bipolar disorder",
+   "Schizophrenia",
+   "Psychosis",
+   "OCD",
+   "Eating disorders",
+   "ADHD",
+   "Autism spectrum",
+   "Postpartum or perinatal depression",
+   "Suicide/self-harm",
+   "Personality disorders",
+   "Delusional disorder",
+   "Cognitive distortion",
+   "Well-being / flourishing",
+   "Stigma",
+   "Misinformation",
+   "Bias",
+   "General mental health",
+   "Emotional support",
+   "Counseling",
+   "Crisis counseling",
+   "General psychiatry",
+   "General psychology"
+  ]
+ ],
+ [
+  "MHScope",
+  [
+   "MH only",
+   "Mixed — MH is a substantial domain",
+   "Mixed — MH is a minor domain"
+  ]
+ ],
+ [
+  "NONE_STATED_ALIASES",
+  [
+   "none stated",
+   "not stated",
+   "none",
+   "n/a",
+   "na",
+   "not applicable",
+   "not reported",
+   "none reported",
+   "unspecified"
+  ]
+ ],
+ [
+  "NON_OBTAINABLE_AVAILABILITY",
+  [
+   "Partially specified",
+   "Not available"
+  ]
+ ],
+ [
+  "OTHER_SPECIFIER_FORBIDDEN_PATTERNS",
+  [
+   "judge",
+   "\\bagreement\\b",
+   "correlation with (human|expert)",
+   "semantic similarit",
+   "coheren",
+   "fluenc",
+   "naturalness",
+   "verbosit",
+   "engagement",
+   "satisfaction",
+   "acceptab|acceptance",
+   "usabilit",
+   "latency|speed|throughput",
+   "affect (change|shift)",
+   "client (outcome|emotional)"
+  ]
+ ],
+ [
+  "OUT_OF_SCOPE_DIMENSIONS",
+  [
+   "naturalness",
+   "authenticity",
+   "verbosity",
+   "judge reliability",
+   "judge-human agreement",
+   "llm-judge vs expert correlation",
+   "inter-rater agreement",
+   "annotator agreement",
+   "client affect change",
+   "client emotional outcome",
+   "pre/post affect shift",
+   "response coherence",
+   "relevance",
+   "on-topicness",
+   "semantic similarity",
+   "usability",
+   "engagement",
+   "response speed",
+   "user-reported trust",
+   "credibility",
+   "satisfaction",
+   "acceptance"
+  ]
+ ],
+ [
+  "OutputAudience",
+  [
+   "Patient / Consumer",
+   "Provider",
+   "Researcher",
+   "Mixed",
+   "Not applicable"
+  ]
+ ],
+ [
+  "QualityLevel",
+  [
+   "Poor",
+   "Adequate",
+   "High",
+   "N/A"
+  ]
+ ],
+ [
+  "ReferenceStandardType",
+  [
+   "Ground-truth reference",
+   "Expert/clinician ratings",
+   "Trained annotator ratings",
+   "None — rubric-only scoring"
+  ]
+ ],
+ [
+  "ReproducibilityType",
+  [
+   "Procedural",
+   "Partial",
+   "Not reproducible"
+  ]
+ ],
+ [
+  "SCREENING_SCOPE_REVIEW_DOMAINS",
+  [
+   "Substance use",
+   "Tobacco/smoking cessation",
+   "Developmental disorders",
+   "ADHD",
+   "Autism spectrum"
+  ]
+ ],
+ [
+  "StudyType",
+  [
+   "Benchmark development",
+   "Evaluation study",
+   "Model development"
+  ]
+ ],
+ [
+  "SystemTaskType",
+  [
+   "Text/response generation",
+   "Classification / score prediction",
+   "Question-answering",
+   "Summarization",
+   "Dialogue/conversation",
+   "Simulation",
+   "Evaluation/judging",
+   "Other"
+  ]
+ ],
+ [
+  "SystemTestedType",
+  [
+   "LLM alone",
+   "LLM as judge/evaluator",
+   "Reward model",
+   "Guardrail/safety classifier alone",
+   "Conversational agent (end-to-end)",
+   "Other multi-component pipeline output"
+  ]
+ ]
+]
